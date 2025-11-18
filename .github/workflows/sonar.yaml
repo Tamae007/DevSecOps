@@ -3,8 +3,9 @@ name: Analyze
 on:
   push:
     branches:
-      - feat/devsecops
+      - 'feat/devsecops'
 
+  workflow_dispatch:
 
 jobs:
   build:

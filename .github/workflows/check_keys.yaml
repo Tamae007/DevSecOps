@@ -3,7 +3,9 @@ name: "Check Key access to Server"
 on:
   push:
       branches:
-        - feat/devsecops
+        - 'feat/devsecops'
+
+  workflow_dispatch:
 
 jobs:
   check-keys:
