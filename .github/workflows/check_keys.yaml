@@ -5,6 +5,8 @@ on:
       branches:
         - feat/devsecops
 
+  workflow_dispatch:
+
 jobs:
   check-keys:
     runs-on: ubuntu-latest
