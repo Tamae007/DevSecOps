@@ -3,7 +3,7 @@ name: Analyze
 on:
   push:
     branches:
-      - main
+      - feat/devsecops
 
 
 jobs:
